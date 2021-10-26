@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.form-container input {
+  border-radius: 20px 5px;
+  height: 45px;
+  max-width: 350px;
+  background: lightskyblue;
+  box-shadow: 2px 2px 4px white, -2px -2px 4px red;
+  border: none;
+  background: none;
+  color: silver;
+  font-size: 18px;
+  padding: 5px 15px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap");
+h1 {
+  color: blue;
+  font-family: "Irish Grover", cursive;
+}
+
+#submit-button {
+  background: #9ff0c1ce;
+  color: black;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+}
+#submit-button:hover {
+  color: blue;
+  background: #000;
+}
